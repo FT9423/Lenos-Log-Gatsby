@@ -35,7 +35,7 @@ export default function Home(props) {
               add them all to “My Garage” to have all your vehicles in one place.
               </p>
             </div>
-            <div className="col-md-4">
+            <div className="col-md-4"> 
               <h3>Determining frequency.</h3>
               <p>
               Submitting the date and mileage for each service allows you to accurately evaluate how often 
