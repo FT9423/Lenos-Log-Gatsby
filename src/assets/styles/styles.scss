@@ -1,0 +1,184 @@
+body {
+  overflow-x: hidden;
+  background-color: rgb(248, 249, 250);
+}
+/* Colors & Tags */
+span {
+  width: 100vw;
+  font-family: Grandstander;
+}
+a {
+  font-family: Grandstander;
+}
+h1,
+h2,
+h3 {
+  font-family: Grandstander;
+}
+p {
+  font-family: Noto Sans JP;
+}
+table {
+  width: 100%;
+}
+input {
+  width: 25vw;
+  height: 45px;
+  border-radius: 5px;
+  border: 2px solid #22223b;
+  padding: 5% 2% 6% 2%;
+}
+
+hr {
+  width: 100%;
+}
+.bg-black {
+  background-color: #000;
+}
+
+/* navbar */
+.navbar_img {
+  width: 150px;
+}
+
+/* Images & Logos */
+#SMainLogo {
+  height: 20%;
+  width: 65%;
+  margin-top: 15%;
+  margin-left: 5%;
+}
+#SCompactLogo {
+  margin-left: 30%;
+  margin-bottom: 15%;
+  height: 150px;
+  width: 200px;
+}
+#NCompactLogo {
+  height: 7%;
+  width: 7%;
+  margin-right: 20%;
+  padding: 0;
+}
+
+/* Landing Page */
+#LandingPage {
+  height: 95.9vh;
+  padding: 19.4% 6% 13% 6%;
+  text-align: center;
+  background-color: rgb(248, 249, 250);
+  background-size: 100% 100%;
+  color: black;
+}
+
+/* Personalized Home Page */
+.homeHero {
+  height: 45vh;
+  display: flex;
+  color: white;
+  margin: 0 -15px ;
+  align-items: center;
+  justify-content: center;
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  background-image: url("../images/Garage.png");
+  background-color: rgb(248, 249, 250);
+}
+.homeHeroText {
+  text-align: center;
+  font-size: 35px;
+  color: #98c1d9;
+}
+#HomeBody {
+  text-align: center;
+  line-height: inherit;
+  background-color: rgb(248, 249, 250);
+  padding-top: 15px;
+}
+#HomeForm {
+  border: 1px solid black;
+  border-radius: 50px;
+  height: 45vh;
+  padding: 10% 1% 10% 1%;
+  width: 20vw;
+  background-color: rgba(248, 249, 250, 0.75);
+  text-align: center;
+}
+#MyGarage {
+  text-align: center;
+}
+#ManageV {
+  margin-left: 25%;
+}
+#PlusBtn {
+  background-color: #cbeef3;
+  color: white;
+  font-size: 20px;
+  border: 2px solid lightgrey;
+  border-radius: 10px;
+  height: 35px;
+  width: 35px;
+}
+#MinusBtn {
+  background-color: #cc444b;
+  color: white;
+  font-size: 15px;
+  border: 2px solid lightgrey;
+  border-radius: 10px;
+  height: 35px;
+  width: 35px;
+}
+
+/* SignUp Page */
+.sign-up {
+  height: 100%;
+  padding: 50px 0;
+  background-image: url("../images/WhiteCityBackground.png");
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  background-color: #cdb4db;
+  background-attachment: fixed;
+}
+
+#SignUpForm {
+  border: 1px solid black;
+  border-radius: 50px;
+  padding: 10% 1% 10% 1%;
+  margin-top: 50px;
+  width: 55.5vw;
+  background-color: rgba(248, 249, 250, 0.75);
+}
+#SignUpSlogan {
+  margin-top: 20%;
+  font-size: 40px;
+  margin-left: 5%;
+}
+#SignUpBtn {
+  background-color: #95d5b2;
+  color: white;
+  font-size: 20px;
+  border: 2px solid lightgrey;
+  border-radius: 10px;
+  width: 70%;
+  margin: 8% 73% 0% 80%;
+  padding: 2% 5%;
+}
+#SignUpBtnX {
+  background-color: white;
+  border: 2px solid lightgrey;
+  border-radius: 10px;
+  font-size: 25px;
+  margin-top: 25%;
+  margin-left: 5%;
+  padding: 8px 8px;
+}
+#SignUpFor {
+  padding-left: 5%;
+}
+#SLenosLog {
+  width: 200%;
+  color: #0077b6;
+  margin-bottom: 15%;
+  -webkit-text-stroke: 1px black;
+  -webkit-text-fill-color: #0077b6;
+}
