@@ -1,8 +1,9 @@
-/**
- * Configure your Gatsby site with this file.
- *
- * See: https://www.gatsbyjs.com/docs/gatsby-config/
- */
+const activeEnv =
+  process.env.GATSBY_ACTIVE_ENV || process.env.NODE_ENV || "development"
+
+require("dotenv").config({
+  path: `.env.${activeEnv}`,
+})
 
 module.exports = {
   /* Your site config here */
@@ -12,18 +13,18 @@ module.exports = {
     {
       resolve: `gatsby-plugin-google-analytics`,
       options: {
-        trackingId: "UA-181661498-1",
-      }
+        trackingId: process.env.GA_TRACKING_ID,
+        head: false,
+        pageTransitionDelay: 0,
+      },
     },
     {
       resolve: `gatsby-plugin-google-fonts`,
       options: {
-        fonts: [
-          `Grandstander\:400,`,
-          `Noto Sans JP\:400`,
-        ],
-        display: 'swap'
-      }
-    }
+        fonts: [`Grandstander\:400,`, `Noto Sans JP\:400`],
+        display: "swap",
+      },
+    },
   ],
 }
+
