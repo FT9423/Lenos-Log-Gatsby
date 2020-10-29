@@ -29,7 +29,7 @@ export default function Home(props) {
           <br></br>
           <div className="row">
             <div className="col-md-4">
-              <h3>Monitor multiple vehicles.</h3>
+              <h3>Monitor multiple vehicles.</h3> 
               <p>
               Whether you have one vehicle or six, 
               add them all to “My Garage” to have all your vehicles in one place.
