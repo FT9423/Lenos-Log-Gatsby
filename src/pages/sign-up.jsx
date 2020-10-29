@@ -4,7 +4,7 @@ import { Link, navigate } from "gatsby"
 
 import API from "../helpers/api"
 import Layouts from "../layouts"
-import MainLogo from "../assets/images/Logo.png"
+import MainLogo from "../assets/images/logo.png"
 import CompactLogo from "../assets/images/compactLogo.png"
 
 export default function SignUp(props) {
